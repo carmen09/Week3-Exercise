@@ -1,0 +1,9 @@
+@font-face{
+font-family:"" ;
+src: url("./asserts/space-grotesk-master/fonts/otf/SpaceGrotesk-Regular.otf") format(otf);
+
+}
+
+h1{
+    font-family: space-grotesk-master;
+}
