@@ -4,6 +4,36 @@ src: url("./asserts/fonts/woff2/Barlow-Medium.woff2") format("woff2");
 
 }
 
+@font-face{
+    font-family:"BarlowCondensed-Black" ;
+    src: url("./asserts/fonts/woff2/BarlowCondensed-Black.woff2") format("woff2");
+    
+    }
+
 h1{
+    font-family:"BarlowCondensed-Black";
+}
+
+
+h2{
     font-family:"Barlow-Medium";
+}
+
+.paragraph{
+    font-size: 5vw;
+    transform: rotate(25deg);
+
+
+}
+.red{
+    color: red;
+    text-decoration: underline;
+    font-size: 7vw;
+}
+
+.invisible:hover{
+    font-size: 10vw;
+
+
+
 }
